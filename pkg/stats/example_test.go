@@ -3,27 +3,6 @@ package stats
 import (
 	"fmt"
 
-<<<<<<< HEAD
-	"github.com/Shah-2021/bank/pkg/types")
-
-
-func ExampleAvg() {
-	payments := []types.Payment{
-		{
-			Amount: 100,
-		},
-		{
-			Amount: 80,
-		},
-		{
-			Amount: 99,
-		},
-	}
-
-    fmt.Println(Avg(payments))
-
-	//Output: 93
-=======
 	"github.com/Shah-2021/bank/v2/pkg/bank/types"
 )
 
@@ -60,5 +39,4 @@ fmt.Println(TotalInCategory(payments, "аптеки" ))
 	// 93
 	// 180
 
->>>>>>> v2
 }
