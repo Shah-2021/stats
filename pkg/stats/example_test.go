@@ -8,6 +8,7 @@ import (
 
 
 func ExampleAvg() {
+	
 	payments := []types.Payment {
 		{
 			Amount: 100,
